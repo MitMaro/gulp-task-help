@@ -1,0 +1,31 @@
+{
+  "name": "gulp-task-help",
+  "version": "0.0.0",
+  "description": "Provides a gulp task to display help for tasks",
+  "main": "build/Help.js",
+  "scripts": {
+    "test": "babel-node ./node_modules/.bin/gulp test",
+    "docs": "./node_modules/.bin/esdoc -c esdoc.json"
+  },
+  "author": "Tim Oram <mitmaro@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "pad": "^1.0.0",
+    "wordwrap": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-istanbul": "^0.3.20",
+    "chai": "^3.3.0",
+    "del": "^2.0.2",
+    "esdoc": "^0.4.1",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.3.0",
+    "gulp-load-plugins": "^1.0.0",
+    "gulp-util": "^3.0.6",
+    "mocha": "^2.3.3",
+    "mockery": "^1.4.0",
+    "sinon": "^1.17.2",
+    "sinon-chai": "^2.8.0",
+    "yargs": "^3.27.0"
+  }
+}
