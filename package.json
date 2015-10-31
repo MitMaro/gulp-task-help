@@ -1,7 +1,7 @@
 {
   "name": "gulp-task-help",
-  "version": "0.0.0",
-  "description": "Provides a gulp task to display help for tasks",
+  "version": "0.0.2",
+  "description": "Provides a gulp task that will display a help message describing the tasks as well as their dependencies and arguments.",
   "main": "build/Help.js",
   "scripts": {
     "test": "babel-node ./node_modules/.bin/gulp test",
@@ -9,6 +9,10 @@
   },
   "author": "Tim Oram <mitmaro@gmail.com>",
   "license": "ISC",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/MitMaro/gulp-task-help.git"
+  },
   "dependencies": {
     "pad": "^1.0.0",
     "wordwrap": "^1.0.0"

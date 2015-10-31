@@ -43,24 +43,24 @@ Provides a gulp task that will display a help message describing the tasks as we
 
 Argument Name | Type | Description
 ---|---|---
-title | string | Generally the title of the application
-description | string | A description of the application or the build system
+title | `string` | Generally the title of the application
+description | `string` | A description of the application or the build system
 
 #### `registerTask(taskName, description, dependencies, args)`
 
 Argument Name | Type | Description | Default
 ---|---|---|---
-taskName | string | The name of the task as registered with gulp
-description | string | The description of the tasks
-dependencies | string[] | A list of dependant task nams | []
-args | string[] | A list of argument names | []
+taskName | `string` | The name of the task as registered with gulp
+description | `string` | The description of the tasks
+dependencies | `string[]` | A list of dependant task nams | `[]`
+args | `string[]` | A list of argument names | `[]`
 
 #### `registerArgument(argumentName, description, defaultValue)`
 Argument Name | Type | Description
 ---|---|---
-argumentName | string | The name of the argument
-description | string | The description of the argument
-defaultValue | string | A default value, or description of the default value
+argumentName | `string` | The name of the argument
+description | `string` | The description of the argument
+defaultValue | `string` | A default value, or description of the default value
  
 ## License
 

@@ -1,0 +1,10 @@
+.idea
+coverage
+docs
+gulp
+src
+test
+.istanbul.yml
+esdoc.json
+gulp-task-help.png
+gulpfile.js
