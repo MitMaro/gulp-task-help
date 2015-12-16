@@ -7,7 +7,7 @@ import Help from './src/Help'
 const plugins = GulpPlugins();
 
 const options = {
-	destination: argv.destination || './build',
+	destination: argv.destination || './lib',
 	command: argv._[0],
 	coverage: argv.coverage || false
 };

@@ -12,7 +12,7 @@ Provides a gulp task that will display a help message describing the tasks as we
 
 ## Usage
 	
-	var Help = require('Help');
+	var Help = require('gulp-task-help');
 	
 	// create the help task instance
 	const help = new Help(
