@@ -2,13 +2,13 @@
 
 import mockery from 'mockery';
 import sinon from 'sinon';
-import wordwrapStub from '../stubs/wordwrap';
-import gulpUtilStub from '../stubs/gulp-util';
+import gulpUtilStub from '@mitmaro/js-test-stubs/stubs/gulp/util';
+import wordwrapStub from '@mitmaro/js-test-stubs/stubs/wordwrap';
 import taskStub from '../stubs/src/Task';
 import argumentStub from '../stubs/src/Argument';
 
 describe('Help', () => {
-	let stubs
+	let stubs;
 	let Help;
 	beforeEach(() => {
 		stubs = {

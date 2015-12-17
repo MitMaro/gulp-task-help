@@ -45,8 +45,8 @@ export default class Help {
 	 * Register a task
 	 * @param {string} taskName The name
 	 * @param {string} description The description
-	 * @param {Task[]} [dependencies=[]] The dependant tasks
-     * @param {Argument[]} [args=[]] The arguments
+	 * @param {string[]} [dependencies=[]] The dependant tasks
+     * @param {string[]} [args=[]] The arguments
      */
 	registerTask(taskName, description, dependencies = [], args = []) {
 		const task = new Task(taskName, description);
